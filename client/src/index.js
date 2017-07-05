@@ -20,7 +20,7 @@ injectTapEventPlugin();
 ReactDOM.render(<MuiThemeProvider>
   <Router>
     <Row around='xs'>
-      <Col xs={12} md={11}>
+      <Col xs={12} md={11}> {/*<div class="col-xs-12 col-md-11">  </div>*/}
         <Route exact path="/" component={Login} />
         <Route exact path="/app" component={CartoonsDirectory} />
       </Col>
